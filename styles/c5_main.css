@@ -53,8 +53,10 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-	border: 3px solid #931420;
+	border: 3px double #931420;
 	border-style: solid none; 
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 0 black; 
 }
 main h2 {
 	color: var(--global-color-1);
